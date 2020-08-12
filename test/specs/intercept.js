@@ -1,14 +1,13 @@
-const fs = require('fs');
-const path = require('path');
-const appRoot = path.join(__dirname, '..', '..');
+const fs       = require('fs');
+const path     = require('path');
+const appRoot  = path.join(__dirname, '..', '..');
 const callsDir = path.join(appRoot, 'calls');
 
-const baseUrl = 'https://reqres.in';
+const baseUrl            = 'https://reqres.in';
 const BROWSER_TIMEOUT_MS = 5000;
-const INTERVAL_MS = 250;
+const INTERVAL_MS        = 250;
 
 describe('wdio intercept service', () => {
-
 
   before('open page', () => {
     browser.url(baseUrl);
@@ -16,19 +15,16 @@ describe('wdio intercept service', () => {
 
 
   it(`tests endpoints`, () => {
-    endpoints = $$('.endpoints li');
-    let requests, targetReq;
+    let endpoints = $$('.endpoints li'), targetReq;
     browser.setupInterceptor();
     endpoints.forEach((endpoint, index) => {
       const endpointLabel = endpoint.getText()
       const formattedFileName = endpointLabel.split(' ').join('_');
-      console.log('endpointLabel', endpointLabel);
       endpoint.$('a').click();
       browser.waitUntil(() => {
-        const attr = endpoint.getAttribute('class');
-        requests = browser.getRequest();
-        targetReq = requests[index]
-        return attr === 'active' && (requests.length === index + 1);
+        const requests = browser.getRequest();
+        targetReq = requests[index];
+        return endpoint.getAttribute('class') === 'active' && (requests.length === index + 1);
       }, BROWSER_TIMEOUT_MS,
       `${endpointLabel} timed out after ${BROWSER_TIMEOUT_MS}`,
         INTERVAL_MS
