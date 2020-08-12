@@ -1,5 +1,5 @@
 # wdio-intercept-demo
-This demo uses WebdriverIO to launch [reqres.in](https://reqres.in) and interacts with the page to call the provided APIs. The WDIO Intercept Service is used to capture the requests + responses and writes them to JSON files.
+This demo uses WebdriverIO to launch [reqres.in](https://reqres.in) and interacts with the page to call the provided APIs. The WDIO Intercept Service is used to capture requests + responses on the page and writes them to JSON files.
 
 ## Setup
 Fork the repo and install dependencies:
