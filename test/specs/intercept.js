@@ -15,10 +15,11 @@ describe('wdio intercept service', () => {
 
 
   it(`tests endpoints`, () => {
-    let endpoints = $$('.endpoints li'), targetReq;
+    const endpoints = $$('.endpoints li');
+    let targetReq;
     browser.setupInterceptor();
     endpoints.forEach((endpoint, index) => {
-      const endpointLabel = endpoint.getText()
+      const endpointLabel = endpoint.getText();
       const formattedFileName = endpointLabel.split(' ').join('_');
       endpoint.$('a').click();
       browser.waitUntil(() => {
@@ -29,7 +30,6 @@ describe('wdio intercept service', () => {
       `${endpointLabel} timed out after ${BROWSER_TIMEOUT_MS}`,
         INTERVAL_MS
       );
-      
       const targetPath = path.join(callsDir, `${formattedFileName}.json`);
       fs.writeFileSync(targetPath, JSON.stringify(targetReq, null, 2));
     });
