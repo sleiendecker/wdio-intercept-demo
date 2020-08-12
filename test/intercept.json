@@ -1,0 +1,653 @@
+[
+  {
+    "url": "/api/users?page=2",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "6592",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "HIT",
+        "cf-ray": "5c1b4362cb93c1e3-IAD",
+        "cf-request-id": "0484e871bb0000c1e381304200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "55 GMT",
+        "etag": "W/\"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "page": 2,
+        "per_page": 6,
+        "total": 12,
+        "total_pages": 2,
+        "data": [
+          {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+          },
+          {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+          },
+          {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+          },
+          {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+          },
+          {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+          },
+          {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+          }
+        ],
+        "ad": {
+          "company": "StatusCode Weekly",
+          "url": "http://statuscode.org/",
+          "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+        }
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/users/2",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "6579",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "HIT",
+        "cf-ray": "5c1b4366eb7ec1e3-IAD",
+        "cf-request-id": "0484e874510000c1e381342200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "55 GMT",
+        "etag": "W/\"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "data": {
+          "id": 2,
+          "email": "janet.weaver@reqres.in",
+          "first_name": "Janet",
+          "last_name": "Weaver",
+          "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+        },
+        "ad": {
+          "company": "StatusCode Weekly",
+          "url": "http://statuscode.org/",
+          "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+        }
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/users/23",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "123",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "HIT",
+        "cf-ray": "5c1b436a9a4dc1e3-IAD",
+        "cf-request-id": "0484e8769f0000c1e381369200000001",
+        "content-length": "2",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "56 GMT",
+        "etag": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "404",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {},
+      "statusCode": 404
+    }
+  },
+  {
+    "url": "/api/unknown",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "6531",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "HIT",
+        "cf-ray": "5c1b436e183cc1e3-IAD",
+        "cf-request-id": "0484e878cd0000c1e381390200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "56 GMT",
+        "etag": "W/\"301-ijGNEim/mAI7LpbQIXyQc2bjt+k\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "page": 1,
+        "per_page": 6,
+        "total": 12,
+        "total_pages": 2,
+        "data": [
+          {
+            "id": 1,
+            "name": "cerulean",
+            "year": 2000,
+            "color": "#98B2D1",
+            "pantone_value": "15-4020"
+          },
+          {
+            "id": 2,
+            "name": "fuchsia rose",
+            "year": 2001,
+            "color": "#C74375",
+            "pantone_value": "17-2031"
+          },
+          {
+            "id": 3,
+            "name": "true red",
+            "year": 2002,
+            "color": "#BF1932",
+            "pantone_value": "19-1664"
+          },
+          {
+            "id": 4,
+            "name": "aqua sky",
+            "year": 2003,
+            "color": "#7BC4C4",
+            "pantone_value": "14-4811"
+          },
+          {
+            "id": 5,
+            "name": "tigerlily",
+            "year": 2004,
+            "color": "#E2583E",
+            "pantone_value": "17-1456"
+          },
+          {
+            "id": 6,
+            "name": "blue turquoise",
+            "year": 2005,
+            "color": "#53B0AE",
+            "pantone_value": "15-5217"
+          }
+        ],
+        "ad": {
+          "company": "StatusCode Weekly",
+          "url": "http://statuscode.org/",
+          "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+        }
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/unknown/2",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "5451",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "HIT",
+        "cf-ray": "5c1b4371bf49c1e3-IAD",
+        "cf-request-id": "0484e87b100000c1e3813a7200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "57 GMT",
+        "etag": "W/\"128-2OIdTk88Wl5IU+miBPIdhOPMcBo\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "data": {
+          "id": 2,
+          "name": "fuchsia rose",
+          "year": 2001,
+          "color": "#C74375",
+          "pantone_value": "17-2031"
+        },
+        "ad": {
+          "company": "StatusCode Weekly",
+          "url": "http://statuscode.org/",
+          "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+        }
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/unknown/23",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "123",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "HIT",
+        "cf-ray": "5c1b43754e00c1e3-IAD",
+        "cf-request-id": "0484e87d4b0000c1e3813cf200000001",
+        "content-length": "2",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "58 GMT",
+        "etag": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "404",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {},
+      "statusCode": 404
+    }
+  },
+  {
+    "url": "/api/users",
+    "method": "POST",
+    "body": {
+      "name": "morpheus",
+      "job": "leader"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b4375ef99c1e3-IAD",
+        "cf-request-id": "0484e87db30000c1e3813db200000001",
+        "content-length": "84",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "58 GMT",
+        "etag": "W/\"54-yJjxjFg7/0HB5o1OJ4I+jKzz4EI\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "201",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "name": "morpheus",
+        "job": "leader",
+        "id": "774",
+        "createdAt": "2020-08-12T15:34:58.389Z"
+      },
+      "statusCode": 201
+    }
+  },
+  {
+    "url": "/api/users/2",
+    "method": "PUT",
+    "body": {
+      "name": "morpheus",
+      "job": "zion resident"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b43797f98c1e3-IAD",
+        "cf-request-id": "0484e87feb0000c1e381001200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "59 GMT",
+        "etag": "W/\"50-q4xFD7uA2ESCBmMfRAYGozr7HhU\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "name": "morpheus",
+        "job": "zion resident",
+        "updatedAt": "2020-08-12T15:34:58.969Z"
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/users/2",
+    "method": "PATCH",
+    "body": {
+      "name": "morpheus",
+      "job": "zion resident"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b437cfe74c1e3-IAD",
+        "cf-request-id": "0484e8821e0000c1e38102b200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:34": "59 GMT",
+        "etag": "W/\"50-/Y9KMtz9hb33ez/6u+dA6YxEBuU\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "name": "morpheus",
+        "job": "zion resident",
+        "updatedAt": "2020-08-12T15:34:59.548Z"
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/users/2",
+    "method": "DELETE",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b4380bd70c1e3-IAD",
+        "cf-request-id": "0484e8846e0000c1e381061200000001",
+        "date: wed, 12 aug 2020 15:35": "00 GMT",
+        "etag": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "204",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": "",
+      "statusCode": 204
+    }
+  },
+  {
+    "url": "/api/register",
+    "method": "POST",
+    "body": {
+      "email": "eve.holt@reqres.in",
+      "password": "pistol"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b43843c0dc1e3-IAD",
+        "cf-request-id": "0484e886a20000c1e381086200000001",
+        "content-length": "36",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:35": "00 GMT",
+        "etag": "W/\"24-4iP0za1geN2he+ohu8F0FhCjLks\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "id": 4,
+        "token": "QpwL5tke4Pnpja7X4"
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/register",
+    "method": "POST",
+    "body": {
+      "email": "sydney@fife"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b4387cb1fc1e3-IAD",
+        "cf-request-id": "0484e888db0000c1e3810a1200000001",
+        "content-length": "28",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:35": "01 GMT",
+        "etag": "W/\"1c-NmpazMScs9tOqR7eDEesn+pqC9Q\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "400",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "error": "Missing password"
+      },
+      "statusCode": 400
+    }
+  },
+  {
+    "url": "/api/login",
+    "method": "POST",
+    "body": {
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b438b5aaec1e3-IAD",
+        "cf-request-id": "0484e88b140000c1e3810c5200000001",
+        "content-length": "29",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:35": "01 GMT",
+        "etag": "W/\"1d-lGCrvD6B7Qzk11+2C98+nGhhuec\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "token": "QpwL5tke4Pnpja7X4"
+      },
+      "statusCode": 200
+    }
+  },
+  {
+    "url": "/api/login",
+    "method": "POST",
+    "body": {
+      "email": "peter@klaven"
+    },
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b438ee944c1e3-IAD",
+        "cf-request-id": "0484e88d4e0000c1e3810dc200000001",
+        "content-length": "28",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:35": "02 GMT",
+        "etag": "W/\"1c-NmpazMScs9tOqR7eDEesn+pqC9Q\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "400",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "error": "Missing password"
+      },
+      "statusCode": 400
+    }
+  },
+  {
+    "url": "/api/users?delay=3",
+    "method": "GET",
+    "body": null,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "response": {
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "5c1b439278cac1e3-IAD",
+        "cf-request-id": "0484e88f8e0000c1e3810f4200000001",
+        "content-encoding": "br",
+        "content-type": "application/json; charset=utf-8",
+        "date: wed, 12 aug 2020 15:35": "05 GMT",
+        "etag": "W/\"4c5-znzuruTKwnH4068T7ikF88YcCME\"",
+        "expect-ct: max-age=604800, report-uri=\"https": "//report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "status": "200",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+      },
+      "body": {
+        "page": 1,
+        "per_page": 6,
+        "total": 12,
+        "total_pages": 2,
+        "data": [
+          {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+          },
+          {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+          },
+          {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
+          },
+          {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+          },
+          {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+          },
+          {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+          }
+        ],
+        "ad": {
+          "company": "StatusCode Weekly",
+          "url": "http://statuscode.org/",
+          "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+        }
+      },
+      "statusCode": 200
+    }
+  }
+]
