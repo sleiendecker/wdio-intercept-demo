@@ -1,5 +1,5 @@
 # wdio-intercept-demo
-This demo uses webdriverio to launch the browser and click all the buttons for testing the AJAX calls. The WDIO Intercept Service is used to capture the requests + responses for each call and writes them to JSON files.
+This demo uses WebdriverIO to launch [reqres.in](https://reqres.in) and interacts with the page to call the provided APIs. The WDIO Intercept Service is used to capture the requests + responses and writes them to JSON files.
 
 ## Setup
 Fork the repo and install dependencies:
@@ -9,7 +9,7 @@ $ cd wdio-intercept-demo
 $ npm i
 ```
 
-Follow the [getting started](https://webdriver.io/docs/gettingstarted.html) link if you run into any issues setting up WebdriverIO and/or the wdio CLI.
+Follow the [getting started](https://webdriver.io/docs/gettingstarted.html) page if you run into any issues setting up WebdriverIO and/or the wdio CLI.
 
 ## Start the testrunner
 ```unix
